@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 0 4rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 30px 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .right a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+header img{
+    width: 70%;
+}
+
+header .right i{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.buy-btn{
+    border: 1px solid grey;
+    border-radius: 30px;
+    font-size: 17px !important;
+    padding: 10px 25px;
+    transition: .4s;
+}
+
+.buy-btn:hover{
+    background-color: #fd4766;
+    border: 1px solid #fd4766;
+}
+
+#Creative{
+    background-image: url(http://rainbowit.net/themes/imroz/wp-content/uploads/2021/10/bg-image-26.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 0;
+}
+
+#Creative h1{
+    font-size: 90px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+}
+
+#Creative p{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.creative-text{
+    width: 50%;
+    margin: auto;
+}
+
+.creative-text a{
+    color: #fff;
+    background-color: #fd4766;
+    padding: 25px 50px;
+    border-radius: 30px;
+}
+
+#Branch{
+    padding: 5rem 0;
+}
+
+#Branch .all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Branch .box{
+    padding: 15px;
+    width: 32%;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+    border-radius: 7px;
+}
+
+.read-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-all .left,.right{
+    width: 48%;
+}
+
+.read-all .left img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.right-all {
+    margin-top: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right-all .box{
+    margin-bottom: 30px;
+    width: 48%;
+}
+
+#Read{
+    background-color: #d3d3d3;
+    padding: 5rem 0;
+}
+
+#Works{
+    padding: 5rem 0;
+}
+
+.works-all{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.works-all .box{
+    width: 32%;
+}
+
+.works-all .box:hover img{
+    filter: brightness(0.5);
+}
+
+.works-all .box img{
+    width: 100%;
+    transition: .5s;
+    border-radius: 6px;
+}
+
+#Logo .all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#Logo .all .box{
+    width: 20%;
+    text-align: center;
+}
+
+
+
+#Logo .all .box img{
+    width: 60%;
+    transition: .4s;
+    filter: grayscale(1) ;
+    
+}
+
+#Logo .box:hover img{
+    filter: grayscale(0) drop-shadow(2px 4px 6px black);
+}
